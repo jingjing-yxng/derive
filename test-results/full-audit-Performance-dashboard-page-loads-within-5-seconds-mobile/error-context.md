@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "Derivé" [ref=e7]
+          - generic [ref=e8]: Derivé
+        - button "Select language" [ref=e10]:
+          - img [ref=e11]
+    - main [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e18]: "1"
+        - generic [ref=e21]: "2"
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Step 1 of 2
+        - heading "Show us what you love" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Share content from Pinterest, Instagram, TikTok, RedNote, or anywhere else. We'll analyze your aesthetic to build a personalized taste profile.
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - button "Paste links" [ref=e30]:
+              - img [ref=e31]
+              - text: Paste links
+            - button "Upload" [ref=e34]:
+              - img [ref=e35]
+              - text: Upload
+            - button "Import" [ref=e38]:
+              - img [ref=e39]
+              - text: Import
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: Paste links to your favorite travel content. You can add multiple URLs, one per line.
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - img [ref=e47]
+                - textbox "Paste any link — Pinterest, Instagram, TikTok, RedNote..." [ref=e50]
+              - button "Extract" [disabled]
+        - generic [ref=e52]:
+          - button "Generate profile" [disabled]:
+            - text: Generate profile
+            - img
+```
